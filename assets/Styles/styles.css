@@ -116,15 +116,15 @@ p{
 	text-decoration: none;
 }
 
-.info-box-tan{
-	background-color: #2D2E78;
+.info-box-light{
+	background-color: darkgray;
 	color: #FFFFFF;
 	padding: 30px 20px 60px;
 	text-align: center;
 	
 }
 .info-box-dark{
-	background-color: #2d2d35;
+	background-color:darkgray;
 	color: #FFFFFF;
 	padding: 30px 20px 60px;
 	text-align: center;
@@ -199,7 +199,7 @@ footer {
 	
 	.col {
 		float: left;
-		padding: 0px 0px 4px;
+		padding: 0px 0px 0px;
 	}
 }
 	
