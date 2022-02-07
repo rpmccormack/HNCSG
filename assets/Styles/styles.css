@@ -158,7 +158,9 @@ footer {
 .col {
 	width: 100%
 }
-
+.footer-text {
+	color: gray;
+}
 /*mobile*/
 
 @media (max-width: 600px){
