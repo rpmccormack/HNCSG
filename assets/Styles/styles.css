@@ -22,8 +22,9 @@ header {
 .nav-wrapper> .left-side > div{
 	margin-right: 0px;
 }
-	.rightside{ 
-		display: flex;
+	.rightside{
+    display: flex;
+    font-size: 18px;
 }
 
 .nav-wrapper> .rightside > div{
@@ -34,6 +35,7 @@ header {
 		height: 22px;
 		border-bottom: 1px solid transparent;
 		transition: border-bottom 0.5s;	
+		
 }
 .nav-link-wrapper a{
 	color: #8a8a8a;
@@ -47,13 +49,18 @@ header {
 }
 
 .nav-link-wrapper a:hover {
-	color: #F7B638;
+    color: #F7B638;
+    font-size: 19px;
 }
 .active-nav-link{
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid black;
+	color: black !important; 
 }
+
+
+
 .active-nav-link a {
-	color: black !important;
+	color: black !important; 
 }
 
 
@@ -66,7 +73,7 @@ header {
 .hero {
 	background-color: goldenrod;
 	background-size: cover;
-	padding: 20px 20px 50px 20px;
+	padding: 5px 20px 50px 20px;
 	color: solid black;
 	text-align: center;
 	
@@ -107,6 +114,9 @@ p{
 	margin-bottom: 35px;
 	
 
+}
+.row {
+	justify-content: space-between;
 }
 .button{
 	border: 2px #FFFFFF;
@@ -179,15 +189,17 @@ footer {
 @media (max-width: 600px){
 		.rightside {
 		display: inline-block;
+			
 	}
 	
 	.nav-link-wrapper {
 		text-align: center;
 	}
+	
 }
 
 
-/*Tablet View*
+/*Tablet View*/
 
 @media (min-width: 768px){
 	
@@ -207,8 +219,8 @@ footer {
 		margin-bottom: 90px;
 	}
 	h3 {
-		font-size: 40px;
-		margin-bottom: 16px;
+    font-size: 16px;
+    margin-bottom: 16px;
 	}
 	
 	h4 {
@@ -244,10 +256,3 @@ footer {
 		width: 25%;
 	}
 }
-
-
-
-.row {
-	justify-content: space-between;
-}
-
