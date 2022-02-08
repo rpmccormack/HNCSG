@@ -94,10 +94,11 @@ h3 {
 }
 
 h4 {
-	font-size: 16px;
+	font-size: 15px;
+	text-transform: uppercase;
 	font-weight: 200;
-	margin-bottom: 50px;
-	width: 750px;
+	margin-bottom: 23px;
+	
 }
 
 p{
