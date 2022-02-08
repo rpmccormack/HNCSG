@@ -176,7 +176,7 @@ footer {
 }
 /*mobile*/
 
-@media (max-width: 600px){
+@media (max-width: 800px){
 		.rightside {
 		display: inline-block;
 	}
@@ -189,7 +189,7 @@ footer {
 
 /*Tablet View*/
 
-@media (min-width: 768px){
+@media (min-width: 850px){
 	
 	body {
 		max-width: 778px;
