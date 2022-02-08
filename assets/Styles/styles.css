@@ -176,7 +176,7 @@ footer {
 }
 /*mobile*/
 
-@media (max-width: 1441px){
+@media (max-width: 600px){
 		.rightside {
 		display: inline-block;
 	}
@@ -189,7 +189,7 @@ footer {
 
 /*Tablet View*/
 
-@media (min-width: 850px){
+@media (min-width: 768px){
 	
 	body {
 		max-width: 778px;
@@ -204,24 +204,32 @@ footer {
 	
 	h2 {
 		margin-bottom: 16px;
+		margin-bottom: 90px;
+	}
+	h3 {
+		font-size: 40px;
+		margin-bottom: 16px;
 	}
 	
+	h4 {
+		margin-bottom: 16px;
+	}
 	.col-md-one-half {
 		width: 50%;
 	}
 	
 	.col {
 		float: left;
-		padding: 0px 0px 0px;
+		padding: 0px 5px 10px;
 	}
 }
 	
 	/* Desktop View */ 
 	
-	@media (min-width: 1024px){
+	@media (min-width: 1200px){
 	
 	body {
-		max-width: 1600px;
+		max-width: 1800px;
 	}
 	
 	.style-logo {
@@ -242,5 +250,4 @@ footer {
 .row {
 	justify-content: space-between;
 }
-.brand {
-}
+
