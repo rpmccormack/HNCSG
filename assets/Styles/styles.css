@@ -117,6 +117,12 @@ p{
 }
 
 .info-box-tan{
+	background-color:darkgrey;
+	color: #FFFFFF;
+	padding: 30px 20px 60px;
+	text-align: center;
+}
+.info-box-tan2{
 	background-color:darkcyan;
 	color: #FFFFFF;
 	padding: 30px 20px 60px;
@@ -124,7 +130,14 @@ p{
 	
 }
 .info-box-dark{
-	background-color:darkgray;
+	background-color:darkgreen;
+	color: #FFFFFF;
+	padding: 30px 20px 60px;
+	text-align: center;
+	
+}
+.info-box-dark2{
+	background-color:goldenrod;
 	color: #FFFFFF;
 	padding: 30px 20px 60px;
 	text-align: center;
