@@ -214,7 +214,7 @@ footer {
 }
 
 
-/*Tablet View*/
+/*Tablet*/
 
 @media (min-width: 768px){
 	
@@ -250,7 +250,7 @@ footer {
 		padding: 0px 5px 10px;
 	} 
 	
-	/* Desktop View */
+	/* Desktop*/
 	
 	@media (min-width: 1024px){
 	
