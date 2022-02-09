@@ -38,7 +38,7 @@ header {
 		border-bottom: 10px solid transparent;
 		transition: border-bottom 0.7s;	
 		margin-bottom: 20px;
-
+		min-width: 103px;
 		
 }
 .nav-link-wrapper a{
@@ -192,14 +192,12 @@ footer {
 
 /*mobile*/
 
-@media (min-width: 455px){
-	body {max-width: 766px}
+@media (max-width: 766px){
+	
 		.rightside {
 		display: inline-block;
-	
-
-		
 	}
+	
 	}
 	.col {
 		width: 100%}
