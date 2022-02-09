@@ -7,10 +7,12 @@ html * {
 	box-sizing: border-box;
 	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
 }
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 header {
 	padding: 32px;
 }
+
+
 	/* nav */
 .nav-wrapper{
 	display: flex;
@@ -186,6 +188,8 @@ footer {
 .footer-text {
 	color: gray;
 }
+
+
 /*mobile*/
 
 @media (max-width: 766px){
@@ -263,4 +267,4 @@ footer {
 	.col-lg-one-fourth {
 		width: 25%;
 	}
-    
+	}}
