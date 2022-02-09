@@ -193,7 +193,7 @@ footer {
 /*mobile*/
 
 @media (min-width: 455px){
-
+	body {max-width: 766px}
 		.rightside {
 		display: inline-block;
 	
