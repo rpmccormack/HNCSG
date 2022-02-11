@@ -12,8 +12,8 @@ header {
 	padding: 32px;
 }
 
-
 	/* nav */
+
 .nav-wrapper{
 	display: flex;
 	justify-content: space-between;
@@ -72,7 +72,7 @@ header {
 /* Main content Styles */
 
 .mainClass {
-	display:flex;
+	/*display:flex;*/
 }
 .hero {
 	background-color: goldenrod;
@@ -191,6 +191,12 @@ p{
 }
 
 
+.row:before, .row:after{
+	content:"";
+	display: table;
+}
+
+
 /*mobile*/
 
 @media (max-width: 766px){
@@ -198,7 +204,11 @@ p{
 		.rightside {
 		display: inline-block;
 	}
-	
+	.row{
+		width: 100%
+	}
+	.mainArticle{
+		width: 100%;
 	}
 	.col {
 		width: 100%}
@@ -207,9 +217,8 @@ p{
 		text-align: center;
 	}
 	.rightside{    font-size: 20px;
-	
+	}
 }
-
 
 /*Tablet*/
 
@@ -246,7 +255,17 @@ p{
 		float: left;
 		padding: 0px 5px 10px;
 	} 
+		.aLeft {
+		width: 70%;
+		float: left;
+		padding: 0px 10px 20px;
+	}
 	
+	.aRight {
+		width: 30%;
+		float: left;
+	} 
+}
 	/* Desktop*/
 	
 	@media (min-width: 1024px){
@@ -266,4 +285,74 @@ p{
 	.col-lg-one-fourth {
 		width: 25%;
 	}
-	}}
+
+}
+	/* article column settings for desktop*/
+.col2{
+	width: 70%
+}
+	.col2-md-one-half {
+		width: 70%;
+	}
+	
+	.col2 {
+		float: left;
+		padding: 0px 15px 20px;
+	} 	
+
+
+
+/* article column settings for desktop*/
+
+	.nav-link-wrapper {
+		text-align: center;
+	}
+
+.col2{
+	width: 70%
+}
+	.col2-md-one-half {
+		width: 70%;
+	}
+	
+	.col2 {
+		float: left;
+		padding: 0px 15px 20px;
+	} 
+
+.info-box-blog{
+
+	color: black;
+	padding: 30px 30px 30px 0px;
+	text-align: center;
+	
+}
+
+.info-box-blog2{
+
+	color: black;
+	padding: 30px 20px 60px;
+	text-align: center;
+	
+}
+		
+		
+	/*article template 2*/
+		
+		
+
+.mainArticle{
+	background-color:darkgray;
+	color: #FFFFFF;
+	padding: 30px 20px 95px;
+	text-align: center;
+	
+}
+.aSideBar{
+	background-color:goldenrod;
+	color: #FFFFFF;
+	padding: 30px 20px 118px ;
+	text-align: center;
+}
+
+	
