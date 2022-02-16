@@ -224,6 +224,11 @@ p{
 
 @media (min-width: 768px){
 	
+
+		iframe {
+			width: 90%;
+	}
+	
 	body {
 		max-width: 778px;
 	}
