@@ -209,6 +209,11 @@ p{
 	}
 	.mainArticle{
 		width: 100%;
+		
+		
+	
+	
+		
 	}
 	.col {
 		width: 100%}
@@ -361,3 +366,15 @@ p{
 }
 
 	
+.textContainer {
+		text-align-last: left;
+	margin-left: 70px;
+		
+	
+		
+	
+}
+
+.mainArticle{
+	color: black;	
+}
