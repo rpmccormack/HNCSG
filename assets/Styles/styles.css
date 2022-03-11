@@ -208,7 +208,7 @@ p{
 		width: 100%
 	}
 	.mainArticle{
-		width: 100%;
+		width: auto;
 		
 		
 	
@@ -377,5 +377,19 @@ p{
 }
 
 .mainArticle{
-	color: black;	
+	color: black;
+	size: auto;
 }
+
+.cpuimage {
+	
+	
+}
+
+.singleArticle {
+
+	
+	padding: 7em;
+}
+
+
