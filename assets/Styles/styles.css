@@ -12,6 +12,11 @@ header {
 	padding: 32px;
 }
 
+code {
+	background-color: black;
+	color: greenyellow;
+}
+
 	/* nav */
 
 .nav-wrapper{
