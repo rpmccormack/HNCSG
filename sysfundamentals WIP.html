@@ -92,35 +92,44 @@
 								<p>Essentially they are blank ROM chips. They can be programmed once and will then act as non-volatile memory the burned data will remain after loss of power but they cannot be reprogrammed.</p>
 							</ul>
 						
-						<p> 4) DRAM</p>
-						<p>Expansion of acronym, Dynamic Random Access Memory.</p>
-						<p>Description</p>
-						<p>Most common RAM used in computers. Cheap and easy to produce. Requires constant refreshment of the data to avoid loss causing latency as no read or write actions can be completed during the refresh phase.</p>
-						<p>5) EPROM</p>
-						<p>Expansion of acronym, Erasable Programmable Read Only Memory.</p>
-						<p>Description</p>
-						<p>Same as PROM but with the added functionality that the data is erasable making them re-usable. Data is erased from an eprom chip using a window on the chip which erases the data when a UV light is shined on it.</p>
-						<p>6) SRAM</p>
-						<p>Expansion of acronym, Static Random Access Memory.</p>
-						<p>Description</p>
-						<p>As above with DRAM it acts as the main memory for the pc. SRAM however does not need to be continually refreshed removing the latency experienced with DRAM making it faster, this also makes it far more expensive. This is the type of memory used in the cache.</p>
-						<p>7)DDR RAM</p>
-						<p>Expansion of acronym, Double Data Rate Random Access Memory.</p>
-						<p>Description</p>
-						<p>Basically this refers to the data fetch rate which is based on the system clock. DDR fetches on the leading and trailing edges of the clock whereas standard RAM only fetches on the leading edge effectively doubling the speed of the data transfer.</p>
-						<p>&nbsp;</p>
+						<p><strong>4) DRAM</strong> (Dynamic Random Access Memory)</p>
+							<ul style="padding-left: 5%">
+								<p>Most common RAM used in computers. Cheap and easy to produce. Requires constant refreshment of the data to avoid loss causing latency as no read or write actions can be completed during the refresh phase.</p>
+							</ul>
+
+						<p><strong>5) EPROM</strong> (Erasable Programmable Read Only Memory)</p>
+							<ul style="padding-left: 5%">
+								<p>Same as PROM but with the added functionality that the data is erasable making them re-usable. Data is erased from an eprom chip using a window on the chip which erases the data when a UV light is shined on it</p>
+							</ul>
+						
+						<p><strong>6) SRAM</strong> (Static Random Access Memory)</p>
+							<ul style="padding-left: 5%">
+								<p>As above with DRAM it acts as the main memory for the pc. SRAM however does not need to be continually refreshed removing the latency experienced with DRAM making it faster, this also makes it far more expensive. This is the type of memory used in the cache.</p>
+							</ul>
+
+						<p><strong>7)DDR RAM</strong> (Double Data Rate Random Access Memory)</p>
+							<ul style="padding-left: 5%">
+								<p>Basically this refers to the data fetch rate which is based on the system clock. DDR fetches on the leading and trailing edges of the clock whereas standard RAM only fetches on the leading edge effectively doubling the speed of the data transfer.</p>
+							</ul>
+
+						<p></p>
 						<p><strong>Direct Memory Access (DMA)</strong></p>
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/ltvpkuQRZao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						
-						<p>Description</p>
-						<p>Direct memory access adds another route which allows data to be written directly to memory without involving the processor. The Processor first receives an interrupt and then activates the DMA hardware and provides it with the following instructions.</p>
-						<ul>
-							<li>A memory start address.</li>
-							<li>The amount of data to be transferred.</li>
-							<li>The device to be used (HDD,CD).</li>
-							<li>The direction of transfer, whether it is an input or an output.</li>
-						</ul>
-						<p>&nbsp;The DMA then transfers the data and notifies the CPU when It is complete. This frees up the CPU to handle other processes boosting performance. While active the DMA has priority over the CPU if both try to access the same area in memory.</p>
+							
+						<p></p>
+							<p><strong>Description</strong></p>
+							<ul style="padding-left: 5%">
+								<p>Direct memory access adds another route which allows data to be written directly to memory without involving the processor. The Processor first receives an interrupt and then activates the DMA hardware and provides it with the following instructions.</p>
+							</ul>
+								<ul style="padding-left: 10%">
+									<li>A memory start address.</li>
+									<li>The amount of data to be transferred.</li>
+									<li>The device to be used (HDD,CD).</li>
+									<li>The direction of transfer, whether it is an input or an output.</li>
+								</ul>
+							<ul style="padding-left: 5%">
+								<p>The DMA then transfers the data and notifies the CPU when It is complete. This frees up the CPU to handle other processes boosting performance. While active the DMA has priority over the CPU if both try to access the same area in memory.</p>
+							</ul>
 					</div>
 				</div>
 			</div>	
