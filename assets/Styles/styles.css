@@ -16,7 +16,10 @@ code {
 	background-color: black;
 	color: greenyellow;
 }
-
+.img{
+	width: 100%; 
+	height: auto;
+}
 	/* nav */
 
 .nav-wrapper{
@@ -213,12 +216,7 @@ p{
 		width: 100%
 	}
 	.mainArticle{
-		width: auto;
-		
-		
-	
-	
-		
+		width: auto;	
 	}
 	.col {
 		width: 100%}
@@ -228,8 +226,10 @@ p{
 	}
 	.rightside{    font-size: 20px;
 	}
+	.singleArticle {
+	padding: 1em;
+	}
 }
-
 /*Tablet*/
 
 @media (min-width: 768px){
@@ -387,14 +387,14 @@ p{
 }
 
 .cpuimage {
-	
+
 	
 }
 
 .singleArticle {
 
 	
-	padding: 7em;
+	padding: 1em;
 }
 
 
@@ -402,3 +402,4 @@ p{
 .colourBox {
 	background-color: darkgray;
 }
+
