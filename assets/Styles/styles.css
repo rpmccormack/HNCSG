@@ -92,16 +92,18 @@ code {
 }
 
 h1 {
-	font-size: 30px;
-	font-weight: 200;
-	margin-bottom: 0px;
+	font-size: 32px;
+	font-weight: 100;
+	width: 50; 
+	margin-top: 1;
+	margin-bottom: 16px;
 	
 }
 h2 {
-	font-size: 30px;
-	text-transform: uppercase;
+	font-size: 24px;
+	!text-transform: uppercase;
 	font-weight: 200;
-	margin-bottom: 25px;	
+	margin-bottom: 25px;
 }
 
 p{
@@ -109,18 +111,18 @@ p{
 }
 
 h3 {
-	font-size: 35px;
+	font-size: 32px;
 	font-weight: 100;
 	width: 50; 
 	margin-top: 1;
-	margin-bottom: 1;
+	margin-bottom: 16px;
+
 }
 
 h4 {
-	font-size: 15px;
+	font-size: 25px;
 	font-weight: 200;
 	margin-bottom: 23px;
-
 }
 
 p{
@@ -128,9 +130,8 @@ p{
 	font-size: 16px;
 	font-weight: 400;
 	margin-bottom: 35px;
-	
-
 }
+
 .row {
 	justify-content: space-between;
 }
@@ -245,19 +246,10 @@ p{
 	
 
 	
-	h1 {
-		font-size: 40px;
-		margin-bottom: 90px;
-	}
+
 	
-	h2 {
-		margin-bottom: 16px;
-		margin-bottom: 90px;
-	}
-	h3 {
-    font-size: 16px;
-    margin-bottom: 16px;
-	}
+
+
 	
 	h4 {
 		margin-bottom: 16px;
@@ -344,18 +336,14 @@ p{
 }
 
 .info-box-blog2{
-
+	
 	color: black;
 	padding: 30px 20px 60px;
 	text-align: center;
 	
 }
-		
-		
+			
 	/*article template 2*/
-		
-		
-
 .mainArticle{
 	background-color:darkgray;
 	color: #FFFFFF;
@@ -370,15 +358,11 @@ p{
 	text-align: center;
 }
 
-	
 .textContainer {
 		text-align-last: left;
 		margin-left: 120px;
 		margin-right: 120px;
-		
-	
-		
-	
+
 }
 
 .mainArticle{
@@ -396,8 +380,6 @@ p{
 	
 	padding: 1em;
 }
-
-
 
 .colourBox {
 	background-color: darkgray;
