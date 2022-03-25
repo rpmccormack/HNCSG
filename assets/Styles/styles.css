@@ -131,6 +131,15 @@ p{
 	font-weight: 400;
 	margin-bottom: 35px;
 }
+ul{
+	text-align: left;
+	padding-left: 20%;
+	padding-right: 5%;
+	list-style-type: disc;
+	
+	/* The default bullet-point list position is 'outside', changing this to inside centre-aligns the bulletpoint with the text*/
+	list-style-position:inside;
+}
 
 .row {
 	justify-content: space-between;
