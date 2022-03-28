@@ -8,6 +8,8 @@ html * {
 	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
 }
 
+
+
 header {
 	padding: 32px;
 }
@@ -101,14 +103,12 @@ h1 {
 }
 h2 {
 	font-size: 24px;
-	!text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-weight: 200;
 	margin-bottom: 25px;
 }
 
-p{
-	padding-bottom: 5px;
-}
+
 
 h3 {
 	font-size: 32px;
@@ -129,7 +129,14 @@ p{
 
 	font-size: 16px;
 	font-weight: 400;
-	margin-bottom: 35px;
+	margin-bottom: 10%;
+	padding-bottom: 5px;
+}
+p2{
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 30%;
+    padding-bottom: 5px;
 }
 ul{
 	text-align: left;
@@ -173,7 +180,7 @@ ul{
 	
 }
 .info-box-dark2{
-	background-color:goldenrod;
+	background-color:darkslategrey;
 	color: #FFFFFF;
 	padding: 30px 20px 60px;
 	text-align: center;
@@ -391,6 +398,6 @@ ul{
 }
 
 .colourBox {
-	background-color: darkgray;
+	background-color: darkcyan;
 }
 
