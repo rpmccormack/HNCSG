@@ -210,6 +210,11 @@ sup {
     font-size: 10px;
 }
 
+sup2 { 
+	vertical-align: super;
+	font-size: 10px;
+}
+
 .col {
 	width: 100%
 }

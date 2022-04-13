@@ -86,10 +86,11 @@
 							<br><br><strong>Answer:</strong>
 							<br>11101011
 						</p>
-					
+
 						<p>
 							<strong>XOR</strong><br>
-							The XOR operator compares two binary numbers and will return a 1 if the numbers are different and a 0 if they are the same<br>
+							The XOR operator compares two binary numbers and will return a 1 if the numbers are
+							different and a 0 if they are the same<br>
 							<br><Strong>Example:</Strong><br>
 							<br>10100011
 							<br>11011010
@@ -105,24 +106,186 @@
 							<br><br><strong>Answer:</strong>
 							<br>01010110
 						</p2>
-						</div>
+					</div>
 
-						<div class="mainArticle" style="margin-top:10px">
-							<h3><strong>Number Conversion</strong></h3>
-							<p>
-								<strong>Decimal to Binary</strong><br><br>
-								To convert from decimal to binary you need to use a table like this:
-								<style>img {width: 100%;height: auto;}</style>
-								<img src="assets/Images/BinaryNumberSys/BinaryTableEmpty.jpg"/>
-							</p>
-						</div>
+					<div class="mainArticle" style="margin-top:10px">
+						<h3><strong>Number Conversion</strong></h3>
+						<p>
+							<strong>Decimal to Binary</strong><br><br>
+							To convert from decimal to binary you need to use a table like this:
+							<style>
+								img {
+									width: 100%;
+									height: auto;
+								}
+							</style>
+							<img src="assets/Images/BinaryNumberSys/BinaryTableEmpty.jpg" /><br>
+							To get the binary number you need to take your decimal number and try to fit it into the
+							table.
+							<br><br><strong>Example:</strong><br>
+							Decimal number: 154<br><br>
+							To start you try to subtract the first number in the table 128 from 154 (154 – 128 = 26), if
+							you can you add a 1 under 128 and move on to the next number, 64. Since you cannot subtract
+							64 from 26 you place a zero under 64 and move on down the table putting zeros under each
+							number you cannot subtract from 26 and adding a 1 from each you can.
+							<br><br>Once you finish the table it should look like this:
+							<style>
+								img {
+									width: 100%;
+									height: auto;
+								}
+							</style>
+							<img src="assets/Images/BinaryNumberSys/DecimalToBinaryTable.jpg" /><br>
+							Using the table we can see that 154 represented in binary is
+							10011010<sup>2</sup>
+						</p>
+
+						<p>
+							<strong>Binary to Decimal</strong><br><br>
+							To convert from binary to decimal can be done using the same table as before when going from
+							decimal to binary:
+							<style>
+								img {
+									width: 100%;
+									height: auto;
+								}
+							</style>
+							<img src="assets/Images/BinaryNumberSys/BinaryTableEmpty.jpg" /><br><br>
+							For this example the binary number is 11011010<sup>2</sup>
+							We can add the binary number into the table like so:<br><br>
+							<style>
+								img {
+									width: 100%;
+									height: auto;
+								}
+							</style>
+							<img src="assets/Images/BinaryNumberSys/BinaryToDecimalTable.jpg" /><br>
+							We can then go from left to right and add the numbers together that have a one underneath
+							them.<br><br>
+							128 + 64 + 16 + 8 + 2 = 218
+							<br>The answer is <strong>218<sup>10</sup></strong>
+						</p>
+						<strong>Binary to Hexadecimal</strong><br><br>
+						To convert from binary to hexadecimal you can break the binary number into chunks of 4 and then
+						convert each chunk into hexadecimal<br><br>
+						We can use 1001 1110 0011 1010<sup>2</sup> as an example<br><br>
+						Using this table we can enter the get the hexadecimal number:<br><br>
+						<style>
+							img {
+								width: 100%;
+								height: auto;
+							}
+						</style>
+						<img src="assets/Images/BinaryNumberSys/8421TableEmpty.jpg" /><br><br>
+						To start we can change 1001 into by adding it to the table like so:<br>
+						<style>
+							img {
+								width: 100%;
+								height: auto;
+							}
+						</style>
+						<img src="assets/Images/BinaryNumberSys/8421TableFilled.jpg" /><br><br>
+						As you can see where the 1s are we can add that number so this one would be 9 since there is a 1
+						under 8 and the 1.<br><br>
+						We can then do the same for the other 3 chunks which works out to:
+						<br><br>1110 = 14 (E)
+						<br><br>0011 = 3
+						<br><br>1010 = 10 (A)
+						<br><br>So 1001 1110 0011 1010<sup>2</sup> in hexadecimal is 9E3A<sup>16</sup>
+						<p>
+							<strong>Hexadecimal to Binary</strong><br><br>
+							Going from Hexadecimal to binary is the same as going from binary to hexadecimal
+							Separating each digit out and converting to binary is how you can do it<br><br>
+
+							As an example, we can use 4A3<sup>16</sup><br><br>
+							We know that:<br>
+							4 = 4<br>
+							A = 10<br>
+							3 = 3<br><br>
+							So we can use the same table as before to add each number to get the binary value:
+
+							<style>
+								img {
+									width: 100%;
+									height: auto;
+								}
+							</style>
+							<img src="assets/Images/BinaryNumberSys/8421TableEmpty.jpg" /><br><br>
+							Adding 4 to the table gives us 0100<br>
+							Doing the same for the other two numbers gives us:<br>
+							A = 1010<br>
+							3 = 0011<br>
+							Putting each chunk together we get:
+							0100 1010 0011<sup>2</sup>
+						</p>
+						<p>
+							<strong>Decimal to Hexadecimal</strong><br><br>
+							To convert from decimal to hexadecimal you can use a table like this:
+							<style>
+								img {
+									width: 100%;
+									height: auto;
+								}
+							</style>
+							<img src="assets/Images/BinaryNumberSys/HexTableEmpty.jpg" /><br><br>
+							If you start with a decimal number of 15632<sup>10</sup> You can try to fit the number into
+							the table similar to how converting from Decimal to binary works.<br><br>
+							You cannot take 65536 from 15632 so that would be 0,<br>
+							You can take 4096 away from 15632 3 times leaving you with 3344. We can now add 3 under the
+							4096 column<br><br>
+							Next we see if we can take 256 away from 3344, we can and it can be done 13 times leaving 16
+							We then put a D (13 in hexadecimal) under the 256 column<br><br>
+							Next step is to try to take away 16 from 16 which can be done one time and leaves 0
+							We can then put a one under 16 and a 0 under 1.<br><br>
+							Once you have done all the steps the table should look like this:
+
+							<style>
+								img {
+									width: 100%;
+									height: auto;
+								}
+							</style>
+							<img src="assets/Images/BinaryNumberSys/HexTableFilled.jpg" /><br><br>
+							Using the table we can see that 15632 in hexadecimal is 3D10<sup>16</sup>
+						</p>
+
+						<p>
+							<strong>Hexadecimal to Decimal</strong><br><br>
+							To convert from hexadecimal to decimal is more difficult that going from decimal to
+							hexadecimal.<br><br>
+							You need to multiply the hexadecimal in powers of sixteen<br><br>
+							Here is a table of the powers of sixteen, it has all the way up to 16<sup2>9</sup2> but you
+							won’t need
+							over 16<sup2>4</sup2>
+							<style>
+								img {
+									width: 100%;
+									height: auto;
+								}
+							</style>
+							<img src="assets/Images/BinaryNumberSys/PowersOf16Table.jpg" /><br><br>
+							As an example we can use C4D3<sup>16</sup><br><br>
+							You need to start from the right so the first number will be 3 and we can multiply it with
+							16<sup2>0</sup2> which is 0<br><br>
+							3 x 0 = 3,
+							<br>We can then do the same for the rest of the numbers
+							<br><br>D (13) x 16<sup2>1</sup2> (16) = 208
+							<br><br>4 x 16<sup2>2</sup2> (256) = 1024
+							<br><br>C (12) x 16<sup2>3</sup2> (4096) = 49152
+
+							<br><br>Now that we have multiplied the numbers, we can add them together to get the decimal number<br><br>
+							3 + 208 + 1024 + 49152 = 50387<br><br>
+							So C4D3<sup>16</sup> converted to decimal is 50387<sup>10</sup>
+
+						</p>
+					</div>
 				</div>
-			<div class="aRight">
-				<div class="aSideBar">
-					<h2>links, menu or related content</h2>
+				<div class="aRight">
+					<div class="aSideBar">
+						<h2>links, menu or related content</h2>
+					</div>
 				</div>
 			</div>
-		</div>
 		</div>
 	</main>
 	<footer>
