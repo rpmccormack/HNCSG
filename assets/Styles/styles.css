@@ -205,8 +205,10 @@ ul{
 	margin-bottom: 5px;
 }
 
-
-
+sup {
+    vertical-align: bottom;
+    font-size: 10px;
+}
 
 .col {
 	width: 100%
