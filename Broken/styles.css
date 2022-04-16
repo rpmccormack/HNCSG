@@ -257,7 +257,7 @@ sup2 {
 /*mobile*/
 
 @media (max-width: 767px){
-	
+	iframe {width: 100%;height: 100%;}
 		.rightside {
 		display: inline-block;
 	}
@@ -275,16 +275,15 @@ sup2 {
 	}
 	.rightside{    font-size: 20px;
 	}
-	iframe {width: 100%;height: 100%;}
+
 
 }
 /*Tablet*/
 
-@media (max-width:1023px){
-	iframe {width: 100%;height: 100%;}
-}
 @media (min-width: 768px){
+	iframe {width: 100%;height: 100%;}
 
+	
 	body {
 		max-width: 1023px;
 	}
@@ -306,8 +305,7 @@ sup2 {
 		width: 30%;
 		float: left;
 	} 
-	
-}
+
 	/* Desktop*/
 	
 	@media (min-width: 1024px){
