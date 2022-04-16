@@ -431,3 +431,10 @@ sup2 {
 table {
 	border-spacing: 3px;
 }
+
+.cpuImage {
+	margin-left:50px;
+	width:85%;
+	height:85%;
+	
+}
