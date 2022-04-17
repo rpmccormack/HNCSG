@@ -312,6 +312,9 @@ sup2 {
 			width:80%;
 			height:300px;
 		}
+	.col-lg-one-fourth{
+		width:50%;
+	}
 }
 	/* Desktop*/
 	
@@ -452,3 +455,5 @@ table {
 	height:60%;	
 	
 }
+
+
