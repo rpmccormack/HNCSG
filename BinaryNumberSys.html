@@ -50,7 +50,13 @@
 					<p4>Decimal is known as base 10 and represented with a <sup>10</sup> at the end of
 						the number (1234<sup>10</sup>)Binary is known as base 2 and represented with a <sup>2</sup> at the end of the number
 						(1011<sup>2</sup>) Hexadecimal is known as base 16 and represented with a <sup>16</sup> at the end of the
-						number (A3CB<sup>16</sup>)<br><br>
+						number (A3CB<sup>16</sup>)<br><br> 
+						Binary: 1, 0
+						<br><br>
+						Deciaml: 1 - 9
+						<br><br>
+						Hexadecimal: A (10), B (11), C (12), D (13), E (14) and F(15)
+						<br><br>
 						
 						Here is a quick video that explains the basics in more detail:
 					</p4>
@@ -75,7 +81,7 @@
 						<br>10101101
 						<br>10010101
 						<br><br><strong>Answer:</strong>
-						<br>10000101
+						<br>10000101<br><br>
 					</p4>
 					<p4>
 						<strong>OR</strong><br>
@@ -85,7 +91,7 @@
 						<br>01100011
 						<br>10101010
 						<br><br><strong>Answer:</strong>
-						<br>11101011
+						<br>11101011<br><br>
 					</p4>
 					<p4>
 						<strong>XOR</strong><br>
@@ -95,7 +101,7 @@
 						<br>10100011
 						<br>11011010
 						<br><br><strong>Answer:</strong>
-						<br>01111001
+						<br>01111001<br><br>
 					</p4>
 					<p2>
 						<strong>NOT</strong><br>
@@ -135,7 +141,8 @@
 						<p4>Using the table we can see that 154 represented in binary is 10011010<sup>2</sup></p4>
 						
 						
-						<h4><strong>Binary to Decimal</strong></h4>
+						<br><br>
+						<p4><strong>Binary to Decimal</strong></p4>
 						<br><br>
 						<p4>To convert from binary to decimal can be done using the same table as before when going from decimal to binary:</p4>
 	 			  		<div class="picBox">
@@ -236,7 +243,7 @@
 						</div>
 				 		<br><br>
 						<p4>Using the table we can see that 15632 in hexadecimal is 3D10<sup>16</sup></p4>
-				  
+						<br><br>
 
 						<p2><strong>Hexadecimal to Decimal</strong></p2>
 						<br><br>
@@ -269,6 +276,162 @@
 						<p4>3 + 208 + 1024 + 49152 = 50387</p4>	
 						<br><br>
 						<p4>So C4D3<sup>16</sup> converted to decimal is 50387<sup>10</sup></p4>
+						<br><br>
+					</div>
+					<div class="sdColourBox">
+						<h4><strong>Addition & Subtraction with Number Systems</strong></h4>
+						<p4><strong>Addition With Binary</strong></p4>
+						<br><br>
+						<p4>To add two binary numbers together involves a few rules:</p4>
+						<br><br>
+						<p4>0 + 0 = 0</p4>
+						<br><br>
+						<p4>0 + 1 = 1</p4>
+						<br><br>
+						<p4>1 + 1 = 0 (The 1 is carried to the next number)</p4>
+						<br><br>
+						<p4>1 + 1 + 1 = 1 (The 1 is carried to the next number)</p4>
+						<br><br>
+						<p4>As an example, we can use:</p4>
+						<br><br>
+						<p4>1111 0000 + </p4>
+						<br><br>
+						<p4>1011 0110</p4>
+						<br><br>
+						<p4>You start from the right so the first one will be 0 + 0 = 0</p4>
+						<br><br>
+						<p4>The next steps are:</p4>
+						<br><br>
+						<p4>0 + 1 = 1</p4>
+						<br><br>
+						<p4>0 + 1 = 1</p4>
+						<br><br>
+						<p4>0 + 0 = 0</p4>
+						<br><br>
+						<p4>1 + 1 = 0 (The one will be carried to the next number)</p4>
+						<br><br>
+						<p4>1 + 1 + 1 = 1 (The one is again carried to the next number)</p4>
+						<br><br>
+						<p4>1 + 0 + 1 = 0 (The one is again carried to the next number)</p4>
+						<br><br>
+						<p4>1 + 1 + 1 = 1 (The one is again carried to the next number)</p4>
+						<br><br>
+						<p4>1 (The one is carried over and will be added to the start of the number)</p4>
+						<br><br>
+						<p4>The answer is:</p4>
+						<br><br>
+						<p4>11010 0110<sup>2</sup></p4>
+						<br><br>
+
+						<p4><strong>Subtraction With Bindary</strong></p4>
+						<br><br>
+						<p4>Subtracting two binary numbers can be confusing so the easiest method is to first convert the numbers into decimal, subtract them then convert the answer back into binary</p4>
+						<br><br>
+						<p4>We can use this table to convert the binary to decimal:</p4>
+						<br><br>
+						<div class="picBox">
+						    <img src="assets/Images/BinaryNumberSys/BinaryTableEmpty.jpg" width="100%" height="100%" alt=""/> 
+						</div>
+						<p4>As an example, we can use</p4>
+						<br><br>
+						<p4>10110101 – 00100101</p4>
+						<br><br>
+						<p4>To convert the first number into decimal using the table is the same as before, put each digit into the table and then add the numbers that have 1s under them</p4>
+						<br><br>
+						<div class="picBox">
+						    <img src="assets/Images/BinaryNumberSys/SubtractionBinaryTable.jpg" width="100%" height="100%" alt=""/> 
+						</div>
+						<p4>We can see that the first number comes to:</p4>
+						<br><br>
+						<p4>128 + 32 + 16 + 4 + 1 = 181</p4>
+						<br><br>
+						<p4>The second number following the same method is:</p4>
+						<br><br>
+						<p4>32 + 4 + 1 = 37</p4>
+						<br><br>
+						<p4>Now we can subtract the two decimal numbers from each other:</p4>
+						<br><br>
+						<p4>182 – 37 = 144</p4>
+						<br><br>
+						<p4>Now we can use the same table and convert 144 back into binary:</p4>
+						<br><br>
+						<div class="picBox">
+						    <img src="assets/Images/BinaryNumberSys/SubtractionBinaryAnswer.jpg" width="100%" height="100%" alt=""/> 
+						</div>
+						<p4>Now that we have converted it back to binary we now know the answer is:</p4>
+						<br><br>
+						<p4>1001 0000<sup>2</sup></p4>
+						<br><br>
+
+						<p4><strong>Addition With Hexadecimal</strong></p4>
+						<br><br>
+						<p4> Adding two hexadecimal numbers together is like adding decimal numbers together but unlike decimal where you need to carry a one after reaching 10, you carry a one after reaching 16.</p4>
+						<br><br>
+						<p4>As an example, we can add:</p4>
+						<br><br>
+						<p4>784</p4>
+						<br><br>
+						<p4>+ BDA</p4>
+						<br><br>
+						<p4>Just like decimal we start with the right most digits and, in this case its 4 + A </p4>
+						<br><br>
+						<p4>4 + A (10)</p4>
+						<br><br>
+						<p4>= 14 (E)</p4>
+						<br><br>
+						<p4>Next, we can add the 8 and D</p4>
+						<br><br>
+						<p4>= 21 (Since we can’t go higher than 16 we need to subtract 16 from 21 to get the answer and carry a 1 to the next part)</p4>
+						<br><br>
+						<p4>21 – 16 = 5</p4>
+						<br><br>
+						<p4>Lastly, we can do 7 + B not forgetting to add the one from the last part </p4>
+						<br><br>
+						<p4>19 – 16 = 3</p4>
+						<br><br>
+						<p4>Now all we need to do is to combine the Bold and underlined answers plus the carried one to get the final answer:</p4>
+						<br><br>
+						<p4>135E<sup>16</sup></p4>
+						<br><br>
+
+
+						<p4><strong>Subtraction with Hexadecimal</strong></p4>
+						<br><br>
+						<p4>Subtracting with hexadecimal is again like subtracting with decimal but instead of borrowing in 10s we borrow in 16s.</p4>
+						<br><br>
+						<p4>As an example, we can subtract:</p4>
+						<br><br>
+						<p4>7E5E</p4>
+						<br><br>
+						<p4>- 471</p4>
+						<br><br>
+						<p4>Just like decimal we go from right to left so the first step is E – 1</p4>
+						<br><br>
+						<p4>E – 1</p4>
+						<br><br>
+						<p4>= 14 – 1</p4>
+						<br><br>
+						<p4>= 13 (D)</p4>
+						<br><br>
+						<p4>Next, we can do 5 -7, Which we can’t do so this is where we borrow from the next number. The next number is E which will become D and bring 16 to the 5 turning it into 21.</p4>
+						<br><br>
+						<p4>5 – 7 </p4>
+						<br><br>
+						<p4>= 5 + 16 = 21</p4>
+						<br><br>
+						<p4>= 21 – 7 = 14</p4>
+						<br><br>
+						<p4>=14 (E)</p4>
+						<br><br>
+						<p4>The next one is now different because we borrowed from it, the E is now D so the new sum will be D - 4</p4>
+						<br><br>
+						<p4>= 13 – 4 = 9</p4>
+						<br><br>
+						<p4>Lastly the 7 doesn’t have anything being subtracted from it so it’s just 7</p4>
+						<br><br>
+						<p4>Combing the answers, we get the final answer of:</p4>
+						<br><br>
+						<p4>79ED<sup>16</sup></p4>
 						<br><br>
 					</div>
 			</div>
