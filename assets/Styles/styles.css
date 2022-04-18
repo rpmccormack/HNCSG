@@ -457,3 +457,7 @@ table {
 }
 
 
+
+.backButton {
+	flex: auto;
+	justify-content:space-between;}
