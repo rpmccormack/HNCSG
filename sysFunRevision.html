@@ -10,33 +10,35 @@
 <body>
 <!--Header Menu-->
 	<header>
-		<div class="nav-wrapper"> 								
-			<div class="left-side">								<!--Logo container-->
-				<div class="style-logo"><img src="assets/Images/logo.png" width="175" height="175" alt=""/></div> <!--Logo file path and on screen dimensions-->
+	<div class="container">
+		<div class="nav-wrapper"> 
+			<div class="left-side">
+				<div class="style-logo"><img src="assets/Images/logo.png" width="175" height="175" alt=""/></div>
 			</div>
 			
-			<div class="rightside"> 							<!--Right side container-->
-				<div class="nav-link-wrapper active-nav-link">  <!--home button container-->
-					<a href="index.html">Home</a> 				<!--Home link and name which appears on page-->
-				</div>											<!--end of "Home" container -->
+			<div class="rightside">
+				<div class="nav-link-wrapper">
+					<a href="index.html">Home</a>
+				</div>
 				
 				<div class="nav-link-wrapper">
 					<a href="gradedUnit.html">Graded unit</a>
 				</div>
 				
 				<div class="nav-link-wrapper">
-					<a href="videoLinks.html">Video Links</a>
+					<a href="networking.html">Networking</a>
 				</div>	
 				
 				<div class="nav-link-wrapper">
-					<a href="mockExams.html">Mock exams</a>
+					<a href="quiz.html">Mock exams</a>
 				</div>
 				
 				<div class="nav-link-wrapper">
-					<a href="about.html">About us</a>	
+					<a href="about.html">&nbsp;About us</a>	
 				</div>
 			</div>	
-		</div>	
+		</div>		
+	</div>
 	</header>
 <!--pageContent-->
 	
@@ -44,96 +46,103 @@
 		<div class="row">
 			<div class="col">
 				<div class= "colourBox"> 
-					<h4><strong>System Fundamentals - Revision content</strong></h4>
-						<ul style="padding: 10px 50px 20px;">
-							<p><strong><em>Fetch/execute cycle</em></strong>: The basic operation cycle of a computer. The process by which a CPU retrieves a program instruction from memory, determines what actions the instruction requires, and carries out those actions.</p>
-							<p><strong><em>Instruction Register (IR):</em></strong> The instruction register holds the instruction currently being executed.</p>
-							<p><strong><em>Memory Data Register (MDR):</em></strong> The memory data register (also known as the memory buffer register or data buffer) holds the piece of data that has been fetched from memory.&nbsp;</p>
-							<p><strong><em>Memory Address Register (MAR):</em></strong> The memory address register holds the address of the next piece of memory to be fetched.</p>
-							<p><strong><em>Program Counter (PC):</em></strong> The program counter holds the location of the next instruction to be fetched from memory.</p>
-						</ul>
-						<div class="picBox">
-							<img src="assets/Images/cpudiagram.png" width="100%" height="100%" alt=""/>
-						</div>
-						<h4><strong>Layered operating system:</strong></h4>
-						<div class="videoBox">
-							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/vyECnqM9LJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</div>
-						<p4><br></p4>
-						<p4><br></p4>
-						<p4><strong>The 5 layers of the operating system and their functions.</strong></p4>
-						
-						<ul style="padding: 10px 50px 20px;">
-							<li>Kernel, the most protected layer of the OS. Determines the allocation of time slices for the processor to the various connected hardware devices in the system. Is the link between the applications and the hardware.</li>
-							<li>Memory Management layer, this layer is responsible for dividing the memory required between the various processes, how to react if that memory is insufficient and ensuring memory allocated to one process is not utilised by another.</li>
-							<li>Input/output, this layer controls the communication between the external devices and the system, when a device requires access to a device it sends an interrupt which is interpreted by the I/O layer and is either a character or block I/O.</li>
-							<li>File management layer, this is the layer responsible for transferring data to permanent media such as HDD or SSD. Also controls how the filing system works i.e. nested folders within a main root folder.</li>
-							<li>User interface, this is the layer that the user is able to interact with. This can be either via a command line or a GUI where command line the user must know the commands the GUI offers users a point and click experience with the commands running in the background behind a graphic for example.</li>
-						</ul>
-						<p><br></p>
-						<p><strong>Types of Computer Memory</strong></p>
-						<div class="videoBox">
-							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/dZcszUj5szA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</div>
-						<p><br></p>
-						
-						<p><strong>1) ROM</strong> (Read Only Memory)</p>
-							<ul style="padding-left: 5%">
-								<p>Pre-programed chips with instructions burned on. Non-volatile memory used for storing basic IO instructions such as OS bootstrap to allow computer to power up.</p>
+					<div class="singleArticle">
+						<h1>System Fundamentals - Revision content</h1>
+						<div class="textBox">
+							<div class="imagebox">
+								<div class="cpuimage">
+								<style>img {width: 100%;height: auto;}</style>
+								<img src="assets/Images/cpudiagram.png"/>
+								</div>
+							</div>
+							
+							<p></p>
+							<ul style="padding: 10px 50px 20px;">
+								<p><strong><em>Fetch/execute cycle</em></strong>: The basic operation cycle of a computer. The process by which a CPU retrieves a program instruction from memory, determines what actions the instruction requires, and carries out those actions.</p>
+								<p><strong><em>Instruction Register (IR):</em></strong> The instruction register holds the instruction currently being executed.</p>
+								<p><strong><em>Memory Data Register (MDR):</em></strong> The memory data register (also known as the memory buffer register or data buffer) holds the piece of data that has been fetched from memory.&nbsp;</p>
+								<p><strong><em>Memory Address Register (MAR):</em></strong> The memory address register holds the address of the next piece of memory to be fetched.</p>
+								<p><strong><em>Program Counter (PC):</em></strong> The program counter holds the location of the next instruction to be fetched from memory.</p>
 							</ul>
-						<p><strong>2) RDRAM</strong> (Rambus Dynamic Random Access Memory)</p>
-							<ul style="padding-left: 5%">
-								<p>A type of RAM that was supposed to be the new standard of RAM produced in the 90’s-00’s. Superseded by DDR SDRAM due to being more cost effective and eventually faster. By 2003 it was no longer supported on pc’s.</p>
+							<p></p>
+							
+							<p style="font-size: 135%;"><strong><em>Layered operating system:</em></strong></p>
+							<style>iframe {width: 100%;height: auto;}</style>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/vyECnqM9LJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							
+							<p></p>
+							<p><strong>The 5 layers of the operating system and their functions.</strong></p>
+							
+							<ul style="padding: 10px 50px 20px;">
+								<li>Kernel, the most protected layer of the OS. Determines the allocation of time slices for the processor to the various connected hardware devices in the system. Is the link between the applications and the hardware.</li>
+								<li>Memory Management layer, this layer is responsible for dividing the memory required between the various processes, how to react if that memory is insufficient and ensuring memory allocated to one process is not utilised by another.</li>
+								<li>Input/output, this layer controls the communication between the external devices and the system, when a device requires access to a device it sends an interrupt which is interpreted by the I/O layer and is either a character or block I/O.</li>
+								<li>File management layer, this is the layer responsible for transferring data to permanent media such as HDD or SSD. Also controls how the filing system works i.e. nested folders within a main root folder.</li>
+								<li>User interface, this is the layer that the user is able to interact with. This can be either via a command line or a GUI where command line the user must know the commands the GUI offers users a point and click experience with the commands running in the background behind a graphic for example.</li>
 							</ul>
-
-						<p><strong>3) PROM</strong> (programmable read only memory)</p>
-							<ul style="padding-left: 5%">
-								<p>Essentially they are blank ROM chips. They can be programmed once and will then act as non-volatile memory the burned data will remain after loss of power but they cannot be reprogrammed.</p>
-							</ul>
-						
-						<p><strong>4) DRAM</strong> (Dynamic Random Access Memory)</p>
-							<ul style="padding-left: 5%">
-								<p>Most common RAM used in computers. Cheap and easy to produce. Requires constant refreshment of the data to avoid loss causing latency as no read or write actions can be completed during the refresh phase.</p>
-							</ul>
-
-						<p><strong>5) EPROM</strong> (Erasable Programmable Read Only Memory)</p>
-							<ul style="padding-left: 5%">
-								<p>Same as PROM but with the added functionality that the data is erasable making them re-usable. Data is erased from an eprom chip using a window on the chip which erases the data when a UV light is shined on it</p>
-							</ul>
-						
-						<p><strong>6) SRAM</strong> (Static Random Access Memory)</p>
-							<ul style="padding-left: 5%">
-								<p>As above with DRAM it acts as the main memory for the pc. SRAM however does not need to be continually refreshed removing the latency experienced with DRAM making it faster, this also makes it far more expensive. This is the type of memory used in the cache.</p>
-							</ul>
-
-						<p><strong>7)DDR RAM</strong> (Double Data Rate Random Access Memory)</p>
-							<ul style="padding-left: 5%">
-								<p>Basically this refers to the data fetch rate which is based on the system clock. DDR fetches on the leading and trailing edges of the clock whereas standard RAM only fetches on the leading edge effectively doubling the speed of the data transfer.</p>
-							</ul>
-
-						<p></p>
-						<p><strong>Direct Memory Access (DMA)</strong></p>
-						<div class="videoBox">
-							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/ltvpkuQRZao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</div>	
-						<p></p>
-							<p><strong>Description</strong></p>
-							<ul style="padding-left: 5%">
-								<p>Direct memory access adds another route which allows data to be written directly to memory without involving the processor. The Processor first receives an interrupt and then activates the DMA hardware and provides it with the following instructions.</p>
-							</ul>
-								<ul style="padding-left: 10%">
-									<li>A memory start address.</li>
-									<li>The amount of data to be transferred.</li>
-									<li>The device to be used (HDD,CD).</li>
-									<li>The direction of transfer, whether it is an input or an output.</li>
+							<p></p>
+							<p><strong>Types of Computer Memory</strong></p>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/dZcszUj5szA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<p></p>
+							
+							<p><strong>1) ROM</strong> (Read Only Memory)</p>
+								<ul style="padding-left: 5%">
+									<p>Pre-programed chips with instructions burned on. Non-volatile memory used for storing basic IO instructions such as OS bootstrap to allow computer to power up.</p>
+								</ul>
+							<p><strong>2) RDRAM</strong> (Rambus Dynamic Random Access Memory)</p>
+								<ul style="padding-left: 5%">
+									<p>A type of RAM that was supposed to be the new standard of RAM produced in the 90’s-00’s. Superseded by DDR SDRAM due to being more cost effective and eventually faster. By 2003 it was no longer supported on pc’s.</p>
+								</ul>
+	
+							<p><strong>3) PROM</strong> (programmable read only memory)</p>
+								<ul style="padding-left: 5%">
+									<p>Essentially they are blank ROM chips. They can be programmed once and will then act as non-volatile memory the burned data will remain after loss of power but they cannot be reprogrammed.</p>
 								</ul>
 							
-								<p4>The DMA then transfers the data and notifies the CPU when It is complete. This frees up the CPU to handle other processes boosting performance. While active the DMA has priority over the CPU if both try to access the same area in memory.</p4>
-						<p><strong>Get Busy With The Quizzy!</strong></p>
-						<iframe width="640px" height= "1100px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=yvDmCG0KYke4rK9Lew6jYIz6UJgIJgZOhgTzBhUkQbtUODRYSkZOQ0paNVg1T1lWREo2NFlVQ1BBUy4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100%" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe> 	
-						<br>
-						<a href="gradedUnit.html"><img src="assets/Images/back button.png" width="125" height="125" alt=""/></a> 
-		  		</div>
+							<p><strong>4) DRAM</strong> (Dynamic Random Access Memory)</p>
+								<ul style="padding-left: 5%">
+									<p>Most common RAM used in computers. Cheap and easy to produce. Requires constant refreshment of the data to avoid loss causing latency as no read or write actions can be completed during the refresh phase.</p>
+								</ul>
+	
+							<p><strong>5) EPROM</strong> (Erasable Programmable Read Only Memory)</p>
+								<ul style="padding-left: 5%">
+									<p>Same as PROM but with the added functionality that the data is erasable making them re-usable. Data is erased from an eprom chip using a window on the chip which erases the data when a UV light is shined on it</p>
+								</ul>
+							
+							<p><strong>6) SRAM</strong> (Static Random Access Memory)</p>
+								<ul style="padding-left: 5%">
+									<p>As above with DRAM it acts as the main memory for the pc. SRAM however does not need to be continually refreshed removing the latency experienced with DRAM making it faster, this also makes it far more expensive. This is the type of memory used in the cache.</p>
+								</ul>
+	
+							<p><strong>7)DDR RAM</strong> (Double Data Rate Random Access Memory)</p>
+								<ul style="padding-left: 5%">
+									<p>Basically this refers to the data fetch rate which is based on the system clock. DDR fetches on the leading and trailing edges of the clock whereas standard RAM only fetches on the leading edge effectively doubling the speed of the data transfer.</p>
+								</ul>
+	
+							<p></p>
+							<p><strong>Direct Memory Access (DMA)</strong></p>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/ltvpkuQRZao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								
+							<p></p>
+								<p><strong>Description</strong></p>
+								<ul style="padding-left: 5%">
+									<p>Direct memory access adds another route which allows data to be written directly to memory without involving the processor. The Processor first receives an interrupt and then activates the DMA hardware and provides it with the following instructions.</p>
+								</ul>
+									<ul style="padding-left: 10%">
+										<li>A memory start address.</li>
+										<li>The amount of data to be transferred.</li>
+										<li>The device to be used (HDD,CD).</li>
+										<li>The direction of transfer, whether it is an input or an output.</li>
+									</ul>
+								<ul style="padding-left: 5%">
+									<p>The DMA then transfers the data and notifies the CPU when It is complete. This frees up the CPU to handle other processes boosting performance. While active the DMA has priority over the CPU if both try to access the same area in memory.</p>
+							<p></p>
+							<p><strong>Get Busy With The Quizzy!</strong></p>
+									<p><iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=yvDmCG0KYke4rK9Lew6jYIz6UJgIJgZOhgTzBhUkQbtUODRYSkZOQ0paNVg1T1lWREo2NFlVQ1BBUy4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe></p>
+								</ul>
+						</div>
+					</div>
+				 </div>
 			</div>	
 		</div>
 	</main>
