@@ -254,6 +254,7 @@ sup2 {
 	display: table;
 }
 
+
 /*mobile*/
 
 @media (max-width: 767px){
@@ -275,21 +276,20 @@ sup2 {
 	}
 	.rightside{    font-size: 20px;
 	}
-	.videoBox{
-		width: 88%;
-		height: 100%;
-	}
 
 }
 /*Tablet*/
 
-
 @media (min-width: 768px){
+	
 
-	body {
-		max-width: 780px;
+		iframe {
+			width: 90%;
 	}
 	
+	body {
+		max-width: 778px;
+	}
 	.col-md-one-half {
 		width: 50%;
 	}
@@ -308,18 +308,10 @@ sup2 {
 		width: 30%;
 		float: left;
 	} 
-		.videoBox{
-			width:80%;
-			height:300px;
-		}
-	.col-lg-one-fourth{
-		width:50%;
-	}
 }
 	/* Desktop*/
 	
 	@media (min-width: 1024px){
-
 	
 	body {
 		max-width: 1600px;
@@ -336,10 +328,7 @@ sup2 {
 	.col-lg-one-fourth {
 		width: 25%;
 	}
-	.videoBox{
-			width:90%;
-			height:450px;
-		}
+
 }
 	/* article column settings for desktop*/
 .col2{
@@ -426,38 +415,7 @@ sup2 {
 	border: 2px solid white;
 	background-color: darkcyan;
 	padding: 0px 15px 0px 20px;
-}
-.sdColourBox{
-	border: 2px solid white;
-	background-color: darkgray;
-	padding: 0px 15px 0px 20px;
-	margin-top:10px
+
 }
 
 
-
-table {
-	border-spacing: 15px;
-	width: 100%;
-
-	
-}
-
-.cpuImage {
-	margin-left:50px;
-	width:85%;
-	height:85%;
-	
-}
-
-.picBox {
-	width:60%;
-	height:60%;	
-	
-}
-
-
-
-.backButton {
-	flex: auto;
-	justify-content:space-between;}
