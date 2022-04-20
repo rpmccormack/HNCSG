@@ -461,3 +461,15 @@ table {
 .backButton {
 	flex: auto;
 	justify-content:space-between;}
+
+.hoverButton a:hover{
+    color: #F7B638;
+	font-size: 16.3px;
+}
+.hoverButton2 a{
+    color: black; 
+}
+.hoverButton2 a:hover{
+    color: darkgreen; 
+	font-size: 16.3px;
+}
